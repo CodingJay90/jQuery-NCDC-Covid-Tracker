@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>jQuery NCDC Tracker</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="form-container first-form">
+        <form class="form-input second-form-input">
+            <label for="first-name">First Name:
+            <input type="text"  class="first-name" required/>
+            </label>
+            <label for="last-name">Last Name:
+            <input type="text"  class="last-name" required>
+            </label>
+            <label for="email">Email Address:
+            <input type="text" class="email" required>
+            </label>
+            <label for="gender">Gender:
+                <select id="gender">
+                    <option>None</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>
+            </label >
+            <label for="checkbox" class="checkbox">
+            <input type="checkbox"  id="checkbox">
+            Recently came into
+            Nigeria within the last 14 days?
+            </label>
+            <input type="submit" class="submit-button">
+        </form>
+<!--         
+        <input type="submit" class="submit-button-2"> -->
+        <button class="submit-button-2 hide">Update</button>
+    </div>
+
+    <div class="form-container hide second-form">
+        
+    </div>
+
+    <div class="result-container">
+        <table>
+            <thead>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email Address</th>
+                <th>Gender</th>
+                <th>Came to Nigeria within the last 14 days?</th>
+                <th></th>
+                <th></th>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </div>
+
+    <script src="lib/jquery-3.5.1.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 5px solid lightgrey;;
+    padding: 0;
+    margin: 0;
+}
+
+.form-container {
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid #444;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.form-input label {
+    display: block;
+    margin: 1rem;
+}
+
+.form-input input {
+    margin-left: 3rem;
+}
+#email {
+    margin-left: 1.4rem;
+}
+#gender {
+    margin-left: 4.5rem;
+}
+.checkbox {
+     font-size: 12px;
+     
+}
+.checkbox input {
+    margin-left: 0;
+}
+
+.form-input select {
+    width: 30%;
+    margin-left: 3rem;
+    border-radius: 4px;
+    height: 1.5rem;
+}
+
+input[type='submit'] {
+    margin-left: 10rem;
+    background: rgba(235, 231, 231, 0.849);
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type='submit']:hover {
+    background: rgb(179, 173, 173);
+}
+/* ========================== */
+
+.result-container {
+    width: 90%;
+    /* margin:  auto; */
+    padding: 1rem;
+    padding: 1rem;
+}
+
+table {
+    border-spacing: 0;
+    border: 1px solid rgb(102, 95, 95);
+    width: 100%;
+}
+
+thead {
+    background: rgba(213, 219, 186, 0.534);
+}
+
+th {
+    padding: .5rem;
+    border: 1px solid rgb(133, 112, 112);
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+}
+
+td {
+    padding: 1rem;
+    text-align: center;
+    font-family: helvetica;
+    font-weight: 500;
+    border: 0.001em solid rgb(133, 112, 112);
+}
+
+button {
+    padding: .5rem;
+}
+button:hover {
+    background: rgb(179, 173, 173);
+    cursor: pointer;
+}
+
+.update-btn {
+    margin-left: 8rem;
+}
+
+
+.hide {
+    display: none;
+}
+
+/* .edit-btn {
+    background: white;
+    color: black;
+    border-color: black;
+} */
+
+/* @media (max-width: 700px){
+    th {
+        padding: 2rem;
+    }
+} */
+
